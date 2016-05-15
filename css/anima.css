@@ -1,0 +1,127 @@
+/* Animation */
+#Polygon_1, #Polygon_2, #Polygon_3 {opacity: 0;}
+.cls-5 {
+    animation-name: txt1; 
+    animation-delay: 1.3s; 
+    animation-duration: 2s; 
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    opacity: 0; 
+}
+.cls-8 {
+    animation-name: txt2; 
+    animation-delay: 2.2s; 
+    animation-duration: 4s; 
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    opacity: 0; 
+}
+.cls-9 {
+    animation-name: txt3; 
+    animation-delay: 2.5s; 
+    animation-duration: 4s; 
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    opacity: 0; 
+}
+.cls-11 {
+    animation-name: txt3; 
+    animation-delay: 2.5s; 
+    animation-duration: 4s; 
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    opacity: 0; 
+}
+path {
+    animation-name: txt3; 
+    animation-delay: 2.2s; 
+    animation-duration: 4s; 
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    opacity: 0; 
+}
+@keyframes txt1 {from {opacity: 0;} to {opacity: 1;} }
+@keyframes txt2 {from {opacity: 0;} to {opacity: 1;} }
+@keyframes txt3 {from {opacity: 0;} to {opacity: 1;} }
+@keyframes txt4 {from {opacity: 0;} to {opacity: 1;} }
+@keyframes txt5 {from {opacity: 0;} to {opacity: 1;} }
+@keyframes txt6 {from {opacity: 0;} to {opacity: 1;} }
+
+#Polygon_1 {
+            animation-name: rotate1; 
+            animation-duration: 3s; 
+            animation-fill-mode: forwards;
+            animation-iteration-count: 1;
+            animation-delay: 0.1s;
+            transform-origin: 70% 50%;
+}
+#Polygon_2 {
+            animation-name: rotate2; 
+            animation-duration: 4s; 
+            animation-fill-mode: forwards;
+            animation-iteration-count: 1;
+            animation-delay: 0.6s;
+            transform-origin: 50% 50%;
+}
+#Polygon_3 {
+            animation-name: rotate2; 
+            animation-duration: 4s; 
+            animation-fill-mode: forwards;
+            animation-iteration-count: 1;
+            animation-delay: 0.8s;
+            transform-origin: 50% 50%;
+}
+@keyframes rotate1 {
+  from {
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(350deg);
+    -o-transform: rotate(350deg);
+    transform: rotate(-10deg);
+    opacity: 0;
+  }
+  to {
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(0deg);
+    opacity: 1;
+  }
+} 
+@keyframes rotate2 {
+  from {
+    -ms-transform: rotate(340deg);
+    -moz-transform: rotate(340deg);
+    -webkit-transform: rotate(340deg);
+    -o-transform: rotate(340deg);
+    transform: rotate(-10deg);
+    opacity: 0;
+  }
+  to {
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(0deg);
+    opacity: 0.67;
+  }
+}
+@keyframes rotate3 {
+  from {
+    -ms-transform: rotate(340deg);
+    -moz-transform: rotate(340deg);
+    -webkit-transform: rotate(340deg);
+    -o-transform: rotate(340deg);
+    transform: rotate(-10deg);
+    opacity: 0;
+  }
+  to {
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(0deg);
+    opacity: 0.67;
+  }
+} 
